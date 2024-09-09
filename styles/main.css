@@ -4,6 +4,7 @@ body{
 justify-content: center !important; 
     height: 100vh !important; 
     background-color: #f4f4f4 !important;
+    
     /* margin: 0 !important; */
 }
 
@@ -11,28 +12,49 @@ justify-content: center !important;
     height: 100px;
     text-align: end;
     align-content: center;
-      background-color: black !important;  
+    background-color: black !important;  
     color: white !important;
-
-    
  }
 
  .box{
     margin: auto 20px;
-    border: 1px solid white;
  }
 
  .size{
     font-size: 30px;
  }
 
-
-
  .button{
-     width: 90px;
-     height: 80px;
-     font-size: 24px;
+     width: 55px;
+     height: 55px;
+     font-size: 18px;
+     border-radius: 50%;
+     border-style: none;
+     margin: 2px;
     }
+   .zero{
+      border-radius: 50px;
+      width: 118px;
+   }
+   .btn-special{
+      background-color: rgb(120, 120, 120);
+   }
+   .btn-special:hover{
+      color: white;
+      background-color: rgb(120, 120, 120);
+   }
+   
+   .number:hover{
+      background-color: rgb(88, 88, 88);
+   }
+
+   .bg-warning:hover{
+      color: white;
+   }
+
+   .bg-black{
+      border-radius: 5%;
+   }
 
     
 
