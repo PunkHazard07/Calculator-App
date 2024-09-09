@@ -8,14 +8,20 @@ justify-content: center !important;
 }
 
 .display{ 
-    height: 90px;
+    height: 100px;
     text-align: end;
     align-content: center;
-     background-color: black !important; 
+      background-color: black !important;  
     color: white !important;
 
     
  }
+
+ .box{
+    margin: auto 20px;
+    border: 1px solid white;
+ }
+
  .size{
     font-size: 30px;
  }
@@ -26,9 +32,8 @@ justify-content: center !important;
      width: 90px;
      height: 80px;
      font-size: 24px;
-    
-     
- }
+    }
 
+    
 
 
